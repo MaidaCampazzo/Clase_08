@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Titillium+Web&display=swap');
+
+body{
+	background: #657ac2;
+	text-align: center;
+	margin:0;
+	Padding:0;
+	font-family: "Titillium Web", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+div.container{
+	width:min(800px, 90%);
+	margin:2rem auto;
+	padding:1rem;
+	background:#bdc9f2;
+	text-align:left;
+}
+
+h1{
+	font-weight: lighter;
+	font-size: calc(2rem + 0.5vw);
+	margin: 0;
+}
+
+p{
+	margin-left:0.2rem;
+}
+
+table{
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+
+table, th, td{ 
+	font-size:88%; 
+	border-bottom: 1px solid black; 
+	border-collapse: collapse;
+	border-bottom:1px solid black;
+	border-collapse:collapse; 
+}
+
+th, td{
+	padding:0.2rem;
+}
+
+th:nth-child(3), td:nth-child(3){
+	text-align: left;
+    vertical-align: middle;
+    padding: 0.4rem;
+}
+
+#Nota {
+  text-align: left;
+  padding-left: 6rem;
+  vertical-align: middle;
+}
+
+p {
+  font-weight: bold;
+}
+
+.barra-svg {
+    display: block;
+    margin: 0 auto;
+}
+
